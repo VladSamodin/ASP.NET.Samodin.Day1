@@ -11,6 +11,7 @@ namespace Task2.SortJaggedArray
         delegate int GetComparisonValue(int[] array);
         delegate bool Compare(int a, int b);
         
+        // без изменеия логики добавить еще 1 тип сортировки
         public static void Sort(int[][] array, TypeSort typeSort, OrderSort orderSort)
         {
             GetComparisonValue getComparisonValue;
